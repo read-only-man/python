@@ -1,8 +1,8 @@
 # coding:utf-8
 '''simple file test'''
 file = open("myfile","w")
-file.write("First line with necessary newline charactor¥n")
-file.write("Second line to write to the file¥n")
+file.write("First line with necessary newline charactor\n")
+file.write("Second line to write to the file\n")
 file.close()
 file = open("myfile","r")
 line1 = file.readline()
